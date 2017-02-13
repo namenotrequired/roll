@@ -1,0 +1,22 @@
+{
+  "name": "roll",
+  "version": "1.0.0",
+  "description": "Roll is a lightweight [Async](http://caolan.github.io/async/) [Waterfall](http://caolan.github.io/async/docs.html#waterfall) clone. Kind of like ES6 Promises, but in older JS.",
+  "main": "roll.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namenotrequired/roll.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/namenotrequired/roll/issues"
+  },
+  "homepage": "https://github.com/namenotrequired/roll#readme",
+  "devDependencies": {
+    "ava": "^0.18.1"
+  }
+}
