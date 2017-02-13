@@ -7,7 +7,7 @@ function roll (tasks, callback) {
         if (err || tasks.length <= 1) {
             return callback(...arguments);
         }
-        // Put the other arguments besides err on the next task
+        // Put the arguments (except err) on the next task
         var args = [...arguments];
         args.splice(0, 1);
         tasks[1] = tasks[1].bind(null, ...args);
